@@ -22,13 +22,18 @@ public class Application extends Frame implements WindowListener {
 		
 		modl.addObserver(view);
 		
+		this.setLocationRelativeTo(null);
 		
 		view.addActionListener(ctrl);
 		
 		this.add(view);
 		
 		this.pack();
+		
 		this.setTitle("xiaoyu");
+		
+		
+		
 		this.setVisible(true);	
 	}
 
