@@ -22,6 +22,7 @@ public class Application extends Frame implements WindowListener {
 		
 		modl.addObserver(view);
 		
+		this.setLocationRelativeTo(null);
 		
 		view.addActionListener(ctrl);
 		
