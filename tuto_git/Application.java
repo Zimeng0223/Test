@@ -22,12 +22,13 @@ public class Application extends Frame implements WindowListener {
 		
 		modl.addObserver(view);
 		
+		
 		view.addActionListener(ctrl);
 		
 		this.add(view);
 		
 		this.pack();
-		this.setTitle("The clic icon");
+		this.setTitle("Test");
 		this.setVisible(true);	
 	}
 
@@ -51,5 +52,7 @@ public class Application extends Frame implements WindowListener {
 
 	@Override
 	public void windowOpened(WindowEvent e) {}
+	
+	
 
 }
